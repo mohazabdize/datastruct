@@ -1,0 +1,19 @@
+The time complexity of the stack and queue operations implemented using a linked list in Java are as follows:
+
+Stack:
+
+Push: O(1)
+Pop: O(1)
+Peek: O(1)
+isEmpty: O(1)
+All stack operations are O(1) time complexity because they only involve adding or removing elements at the top of the stack, which is easily accessible through the head of the linked list.
+
+Queue:
+
+Enqueue: O(1)
+Dequeue: O(1)
+Peek: O(1)
+isEmpty: O(1)
+Similar to the stack, all queue operations are O(1) time complexity because they only involve adding or removing elements at the end or front of the linked list, which is easily accessible through the head and tail pointers.
+
+Overall, the time complexity of these operations is constant, O(1), for both the stack and queue implementations using a linked list. However, it's worth noting that space complexity will be proportional to the number of elements stored in the data structure.
